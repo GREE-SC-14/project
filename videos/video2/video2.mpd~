@@ -5,7 +5,10 @@
   minBufferTime="PT2S"
   profiles="urn:mpeg:dash:profile:isoff-live:2011"
   mediaPresentationDuration="PT188S">
-  <Period>
+<BaseURL>
+http://EdgeServerA.projectcdn.ch-geni-net.instageni.ku.gpeni.net/video1/;http://EdgeServerB.projectcdn.ch-geni-net.instageni.ku.gpeni.net/video1/
+</BaseURL>   
+<Period>
     <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1280" maxHeight="720" maxFrameRate="25" par="16:9">
 <Representation id="2500000bps" codecs="avc3.4d401f" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="2500000">
  <SegmentList >

@@ -6,7 +6,7 @@
   <Copyright>TelecomParisTech(c)2012</Copyright>
  </ProgramInformation>
 <BaseURL>
-http://EdgeServerA.projectcdn.ch-geni-net.instageni.ku.gpeni.net/video1/;http://EdgeServerB.projectcdn.ch-geni-net.instageni.ku.gpeni.net/video1/
+http://EdgeServerA.projectcdn.ch-geni-net.instageni.ku.gpeni.net/video1/;http://EdgeServerB.projectcdn.ch-geni-net.instageni.ku.gpeni.net/video1
 </BaseURL> 
 <Period start="PT0S" duration="PT0H10M0.00S">
   <AdaptationSet segmentAlignment="true" maxWidth="1920" maxHeight="1080" maxFrameRate="25" par="16:9">
