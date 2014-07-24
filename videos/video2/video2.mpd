@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="urn:mpeg:dash:schema:mpd:2011"
+  type="static"
+  minBufferTime="PT2S"
+  profiles="urn:mpeg:dash:profile:isoff-live:2011"
+  mediaPresentationDuration="PT188S">
+  <Period>
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1280" maxHeight="720" maxFrameRate="25" par="16:9">
+      <SegmentTemplate duration="2" startNumber="23821645" media="video_$Number$_$Bandwidth$bps.mp4" initialization="video_$Bandwidth$bps.mp4">
+      </SegmentTemplate>
+      <Representation id="v0" codecs="avc3.4d401f" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="4000000"/>
+      <Representation id="v1" codecs="avc3.4d401f" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="2500000"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" codecs="mp4a.40.5" audioSamplingRate="48000" lang="fr" segmentAlignment="true" startWithSAP="1">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate duration="2" startNumber="23821645" media="audio_$Number$_$Bandwidth$bps_Input_2.mp4" initialization="audio_$Bandwidth$bps_Input_2.mp4">
+      </SegmentTemplate>
+      <Representation id="a2" bandwidth="96000"/>
+    </AdaptationSet>
+  </Period>
+</MPD>
