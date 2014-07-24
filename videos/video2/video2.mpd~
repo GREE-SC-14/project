@@ -207,7 +207,7 @@
     <AdaptationSet mimeType="audio/mp4" codecs="mp4a.40.5" audioSamplingRate="48000" lang="fr" segmentAlignment="true" startWithSAP="1">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <Representation id="a2" bandwidth="96000">
+      <Representation id="a2" bandwidth="96000"/>
  <SegmentList >
 <SegmentURL media="audio_23821645_96000bps_Input_2.mp4"/>
 <SegmentURL media="audio_23821646_96000bps_Input_2.mp4"/>
