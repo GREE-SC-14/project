@@ -10,7 +10,7 @@ http://EdgeServerA.projectcdn.ch-geni-net.instageni.ku.gpeni.net/video2/;http://
 </BaseURL>   
 <Period>
     <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1280" maxHeight="720" maxFrameRate="25" par="16:9">
-<Representation id="2500000bps" codecs="avc3.4d401f" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="2500000">
+<Representation id="2500000bps" codecs="avc3.4d401f" mimeType="video/mp4" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="2500000">
  <SegmentList >
 <SegmentURL media="video_23821645_2500000bps.mp4"/>
 <SegmentURL media="video_23821646_2500000bps.mp4"/>
@@ -108,7 +108,7 @@ http://EdgeServerA.projectcdn.ch-geni-net.instageni.ku.gpeni.net/video2/;http://
 <SegmentURL media="video_23821738_2500000bps.mp4"/>
     </SegmentList>
  </Representation>      
-<Representation id="4000000bps" codecs="avc3.4d401f" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="4000000">
+<Representation id="4000000bps" codecs="avc3.4d401f" mimeType="video/mp4" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="4000000">
  <SegmentList >
 <SegmentURL media="video_23821645_4000000bps.mp4"/>
 <SegmentURL media="video_23821646_4000000bps.mp4"/>
@@ -210,7 +210,7 @@ http://EdgeServerA.projectcdn.ch-geni-net.instageni.ku.gpeni.net/video2/;http://
     <AdaptationSet mimeType="audio/mp4" codecs="mp4a.40.5" audioSamplingRate="48000" lang="fr" segmentAlignment="true" startWithSAP="1">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <Representation id="96000bps" bandwidth="96000">
+      <Representation id="96000bps" bandwidth="96000" mimeType="audio/mp4">
  <SegmentList >
 <SegmentURL media="audio_23821645_96000bps_Input_2.mp4"/>
 <SegmentURL media="audio_23821646_96000bps_Input_2.mp4"/>
